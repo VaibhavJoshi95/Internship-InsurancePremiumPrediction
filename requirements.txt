@@ -1,5 +1,17 @@
 numpy
 pandas
 Flask
+
+
+
+
+
+
+
+
+
+
+
+
 seaborn
 scikit-learn
