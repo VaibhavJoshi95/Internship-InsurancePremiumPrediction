@@ -16,7 +16,7 @@ def get_requirements(file_path:str)-> List[str]:
 
 
 setup(
-    name = "InsurancePremiumPrediction",
+    name = "RegressionProjectGemstonePrice",
     version='0.0.1',
     author = 'Vaibhav Joshi',
     author_email='vaibhavgjoshi95@gmail.com',
