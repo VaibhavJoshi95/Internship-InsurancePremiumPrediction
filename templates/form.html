@@ -2,23 +2,23 @@
 <body>
 <form action="{{url_for('predict_datapoint')}}" method="POST">
     <div class="form-group">
-        <label for="age">Carat:</label>
+        <label for="age">Age:</label>
         <input type="text" id="age" name="age" placeholder="Enter carat value (int)">
     </div>
 
     <div class="form-group">
-        <label for="bmi">Depth:</label>
+        <label for="bmi">bmi:</label>
         <input type="text" id="bmi" name="bmi" placeholder="Enter depth value (float)">
     </div>
 
     <div class="form-group">  
-        <label for="children">Table:</label>
+        <label for="children">Children:</label>
         <input type="text" id="children" name="children" placeholder="Enter table value (int)">
     </div>
     
       
 <div class="form-group">
-  <label for="sex">Cut:</label>
+  <label for="sex">sex:</label>
   <select id="sex" name="sex">
     <option value="Male">male</option>
     <option value="Female">female</option>
@@ -26,7 +26,7 @@
 </div>
   
 <div class="form-group">
-  <label for="smoker">Color:</label>
+  <label for="smoker">smoker:</label>
   <select id="smoker" name="smoker">
     <option value="Yes">yes</option>
     <option value="No">no</option>
@@ -35,7 +35,7 @@
 </div>
 
 <div class="form-group">
-  <label for="region">Clarity:</label>
+  <label for="region">region:</label>
   <select id="region" name="region">
     <option value="SouthWest">southwest</option>
     <option value="SouthEast">southeast</option>
