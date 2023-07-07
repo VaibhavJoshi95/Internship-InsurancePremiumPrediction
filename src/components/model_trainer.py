@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression, Ridge,Lasso,ElasticNet
+from sklearn.ensemble import RandomForestRegressor, AdaBoostRegressor,GradientBoostingRegressor
 from src.exception import CustomException
 from src.logger import logging
 
@@ -36,7 +37,10 @@ class ModelTrainer:
             'LinearRegression':LinearRegression(),
             'Lasso':Lasso(),
             'Ridge':Ridge(),
-            'Elasticnet':ElasticNet()
+            'Elasticnet':ElasticNet(),
+            'RandomForestRegressor':RandomForestRegressor(),
+            'AdaBoostRegressor':AdaBoostRegressor(),
+            'GradientBoostingRegressor':GradientBoostingRegressor()
         }
             
             model_report:dict=evaluate_model(X_train,y_train,X_test,y_test,models)
