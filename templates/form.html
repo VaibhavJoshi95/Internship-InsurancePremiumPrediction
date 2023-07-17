@@ -1,52 +1,59 @@
 <html>
+  <head>
+    <title>Premium form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  </head>
 <body>
-<form action="{{url_for('predict_datapoint')}}" method="POST">
-    <div class="form-group">
-        <label for="age">Age:</label>
-        <input type="text" id="age" name="age" placeholder="Enter carat value (int)">
+  <form class="mt-5 p-5" action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="row p-3">
+      <div class="col form-group">
+          <label for="age">Age:</label>
+          <input type="text" id="age" name="age" placeholder="Enter carat value (int)">
+      </div>
+  
+      <div class="col form-group">
+          <label for="bmi">bmi:</label>
+          <input type="text" id="bmi" name="bmi" placeholder="Enter depth value (float)">
+      </div>
     </div>
-
-    <div class="form-group">
-        <label for="bmi">bmi:</label>
-        <input type="text" id="bmi" name="bmi" placeholder="Enter depth value (float)">
-    </div>
-
-    <div class="form-group">  
+    <div class="row">
+      <div class="col form-group">  
         <label for="children">Children:</label>
         <input type="text" id="children" name="children" placeholder="Enter table value (int)">
+      </div>
+      
+        
+      <div class="col form-group">
+        <label for="sex">sex:</label>
+        <select id="sex" name="sex">
+          <option value="male">male</option>
+          <option value="female">female</option>
+        </select>
+      </div>
+    </div>      
+      <div class="form-group">
+        <label for="smoker">smoker:</label>
+        <select id="smoker" name="smoker">
+          <option value="yes">yes</option>
+          <option value="no">no</option>
+          
+        </select>
+      </div>
+  
+    <div class="form-group">
+      <label for="region">region:</label>
+      <select id="region" name="region">
+        <option value="southwest">southwest</option>
+        <option value="southeast">southeast</option>
+        <option value="sorthwest">northwest</option>
+        <option value="northeast">northeast</option>
+        
+      </select>
     </div>
     
-      
-<div class="form-group">
-  <label for="sex">sex:</label>
-  <select id="sex" name="sex">
-    <option value="male">male</option>
-    <option value="female">female</option>
-  </select>
-</div>
-  
-<div class="form-group">
-  <label for="smoker">smoker:</label>
-  <select id="smoker" name="smoker">
-    <option value="yes">yes</option>
-    <option value="no">no</option>
-    
-  </select>
-</div>
-
-<div class="form-group">
-  <label for="region">region:</label>
-  <select id="region" name="region">
-    <option value="southwest">southwest</option>
-    <option value="southeast">southeast</option>
-    <option value="sorthwest">northwest</option>
-    <option value="northeast">northeast</option>
-    
-  </select>
-</div>
-
-<div style="clear:both;"></div>
-  <input type="submit" value="Submit">
+    <div style="clear:both;"></div>
+      <input type="submit" value="Submit">
+  </div>
 </form>
 </body>
 </html>
