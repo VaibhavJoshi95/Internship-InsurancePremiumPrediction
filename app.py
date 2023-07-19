@@ -19,7 +19,7 @@ def predict_datapoint():
     
     else:
         data=CustomData(
-            age=float(request.form.get('age')),
+            age = int(request.form.get('age')),
             sex = request.form.get('sex'),
             bmi = float(request.form.get('bmi')),
             children = float(request.form.get('children')),
