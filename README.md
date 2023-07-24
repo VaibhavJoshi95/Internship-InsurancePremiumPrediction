@@ -55,8 +55,6 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 If you'd like to request a new function, feel free to do so by opening an issue here. Please include sample queries and their corresponding results.
 ## Used Technologies
 ![Logo1](https://www.vnurture.in/wp-content/uploads/2021/06/python.png)
-![Logo2](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.crunchbase.com%2Forganization%2Famazon-web-services&psig=AOvVaw3O0Su2XPPVmdXRcIfpzl-6&ust=1690272822756000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCNCkrYvzpoADFQAAAAAdAAAAABAE)
-
 
 ## Appendix
 Link for video regarding to the explanation of the project :  
