@@ -13,8 +13,7 @@
 * [Appendix](#appendix)
 * [FAQ](#faq) 
 * [Author](#author)
-* [License](#license)
-* [Feedback](#feedback)
+
 
 ## Demo
 • Link for web application : http://insurancepremiumprdiction-env.eba-2rchbbjc.eu-north-1.elasticbeanstalk.com/predict
@@ -61,7 +60,7 @@ If you'd like to request a new function, feel free to do so by opening an issue 
 
 ## Appendix
 Link for video regarding to the explanation of the project :  
-https://drive.google.com/file/d/1PkUzDJSgya7YWwuW7OVA7Rc0CnZ9oEJ5/view
+https://drive.google.com/file/d/1mZZ5MC4XlN1SfEYY6fTsfdibw82kteBD/view?usp=sharing
 
 Link for App Documentation :    
 https://github.com/VaibhavJoshi95/Internship-InsurancePremiumPrediction/tree/main/Documents
