@@ -66,7 +66,7 @@ class DataTransformation:
             logging.info('Pipeline Completed')
 
         except Exception as e:
-            logging.info("Error in Data Transformation")
+            logging.info("Error occured in Data Transformation")
             raise CustomException(e,sys)
 
     def initaite_data_transformation(self,train_path,test_path):
